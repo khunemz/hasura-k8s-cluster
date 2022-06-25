@@ -19,9 +19,8 @@ minikube dashboard
 kubectl create namespace {{namespace}}
 ```
 # firt thing first you need to install postgres
-
-# deployment postgres
-# username / password have to be in `base64`
+### deployment postgres
+#### notice: username / password have to be in `base64`
 ```
 kubectl apply -f deployments/postgres-secrets.yaml
 kubectl apply -f deployments/postgres-storage.yaml
@@ -95,7 +94,7 @@ kubectl delete --all {{pod|service|deployment}} --namespace=labs
 ```
 
 # hasura deployment
-# !!!! you have to change credentials before
+#### !!!! you have to change credentials before
 ```
 cd deployments
 
@@ -120,9 +119,7 @@ NAME             CLASS   HOSTS   ADDRESS        PORTS   AGE
 hasura-ingress   nginx   *       192.168.64.2   80      5m16s
 ```
 
-# then navigate to the address shown above
-
-# in the first run it would ask you about admin secrets which located in hasura deployment file (in this case it located in `hasura.yaml`)
+then navigate to the address shown above. In the first run it would ask you about admin secrets which located in hasura deployment file (in this case it located in `hasura.yaml`)
 
 
 <img width="1440" alt="Screen Shot 2565-06-25 at 09 29 26" src="https://user-images.githubusercontent.com/10510210/175755112-07666eb1-5f5e-4779-9d76-8d1c3565a8a0.png">
