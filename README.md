@@ -62,3 +62,12 @@ hasura-ingress   nginx   *       192.168.64.2   80      5m16s
 // 1) see hasura ingress
 
 ```
+
+
+## screen shot
+
+<img width="1440" alt="Screen Shot 2565-06-25 at 09 29 26" src="https://user-images.githubusercontent.com/10510210/175755112-07666eb1-5f5e-4779-9d76-8d1c3565a8a0.png">
+
+
+<img width="1440" alt="Screen Shot 2565-06-25 at 09 37 37" src="https://user-images.githubusercontent.com/10510210/175755115-bb92806d-c972-456f-addd-fe7bbe36bd68.png">
+
